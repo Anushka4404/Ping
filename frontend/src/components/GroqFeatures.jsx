@@ -12,7 +12,7 @@ const GroqFeatures = ({ chatMessages }) => {
 
   // Replace with your Render backend URL in production
   const BACKEND_URL = process.env.NODE_ENV === 'production' 
-    ? 'https://your-backend-app.onrender.com' // Replace this with your deployed backend URL
+    ? 'https://ping.onrender.com' // Replace this with your deployed backend URL
     : 'http://localhost:5000'; // Local development URL
 
   const handleSummarize = async () => {
